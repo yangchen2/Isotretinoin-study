@@ -11,10 +11,11 @@ suppressPackageStartupMessages({
 # Inputs
 # -----------------------------
 rds_path <- "../Michigan_data/singlecell/seurat.RDS"
-target_celltypes <- c("Basal Keratinocytes")
-# "Myeloid Cells", "Fibroblasts", "Sebaceous Gland Cells", "Differentiated Keratinocytes"
+target_celltypes <- c("Differentiated Keratinocytes")
+# "Myeloid Cells", "Fibroblasts", "Sebaceous Gland Cells", "Differentiated Keratinocytes", "Basal Keratinocytes"
 
-genes <- c("PLA2G7", "PTGS1", "PTGS2", "PTGES", "PTGES2", "PTGES3")
+#genes <- c("PLA2G7", "PTGS1", "PTGS2", "PTGES", "PTGES2", "PTGES3")
+genes <- c("PLA2G2A")
 
 # -----------------------------
 # Load object and metadata

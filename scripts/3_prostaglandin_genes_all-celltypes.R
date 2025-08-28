@@ -11,8 +11,8 @@ suppressPackageStartupMessages({
 # Inputs
 # -----------------------------
 rds_path <- "../Michigan_data/singlecell/seurat.RDS"
-genes <- c("PLA2G7", "PTGS1", "PTGS2", "PTGES", "PTGES2", "PTGES3")
-
+#genes <- c("PLA2G7", "PTGS1", "PTGS2", "PTGES", "PTGES2", "PTGES3")
+genes <- c("PLA2G2A")
 # -----------------------------
 # Load object and metadata
 # -----------------------------
@@ -121,4 +121,6 @@ for (pid_target in c("pts_combined")) {
     message("  Saved: ", normalizePath(out_file))
   }
 }
-message("Done.")
+
+
+message("*****Done*****")
